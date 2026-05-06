@@ -212,11 +212,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aecyGj_1fXJ4jN0_Au8K-47" value="释放资源" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;entryX=0.63;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;exitX=0.809;exitY=0.693;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aecyGj_1fXJ4jN0_Au8K-20" target="aecyGj_1fXJ4jN0_Au8K-16">
+        <mxCell id="aecyGj_1fXJ4jN0_Au8K-47" value="释放资源" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;entryX=0.454;entryY=1.001;rounded=0;labelBackgroundColor=none;fontColor=default;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;exitX=0.809;exitY=0.693;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aecyGj_1fXJ4jN0_Au8K-20" target="aecyGj_1fXJ4jN0_Au8K-16">
           <mxGeometry x="-0.0626" y="10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="437" y="1910" />
-              <mxPoint x="881" y="1910" />
+              <mxPoint x="850" y="1910" />
+              <mxPoint x="850" y="1860" />
             </Array>
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
