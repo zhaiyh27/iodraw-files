@@ -76,7 +76,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-124" value="放回内部等待池" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="801" y="2280" width="127" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-105" target="Li-SDMcF7qhCwTF1jwC1-107">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.462;exitY=0.975;entryX=0.5;entryY=0;rounded=0;fontSize=17;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-105" target="Li-SDMcF7qhCwTF1jwC1-107">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
             <mxPoint x="1095.5" y="328" as="sourcePoint" />
