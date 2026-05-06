@@ -44,7 +44,7 @@
           <mxGeometry x="176" y="1330" width="254" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-13" value="生成结束？&#xa;（EOS 或 达到最大长度）" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="198.5" y="1410" width="210" height="106" as="geometry" />
+          <mxGeometry x="140" y="1410" width="268.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-14" value="结束本次推理，不再调度" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="41" y="1563" width="236" height="49" as="geometry" />
