@@ -205,10 +205,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-46" value="已结束" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aecyGj_1fXJ4jN0_Au8K-20" target="aecyGj_1fXJ4jN0_Au8K-21">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.3573" y="5" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="165" y="1936" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-47" value="释放资源" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.63;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aecyGj_1fXJ4jN0_Au8K-20" target="aecyGj_1fXJ4jN0_Au8K-16">
@@ -232,7 +233,7 @@
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-55" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;4. 状态判定与分流层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=13;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="85" y="1700" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="aecyGj_1fXJ4jN0_Au8K-56" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;5. 后处理与响应层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="aecyGj_1fXJ4jN0_Au8K-56" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;5. 后处理与响应层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=13;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="30" y="2014" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
