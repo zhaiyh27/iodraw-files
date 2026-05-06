@@ -215,9 +215,9 @@
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-47" value="释放资源" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.63;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aecyGj_1fXJ4jN0_Au8K-20" target="aecyGj_1fXJ4jN0_Au8K-16">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="610" y="1876" />
-              <mxPoint x="610" y="1920" />
-              <mxPoint x="881" y="1920" />
+              <mxPoint x="420" y="1876" />
+              <mxPoint x="420" y="1910" />
+              <mxPoint x="881" y="1910" />
             </Array>
           </mxGeometry>
         </mxCell>
