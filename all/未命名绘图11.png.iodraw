@@ -13,7 +13,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-102" value="3. 核心推理引擎层" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="628" y="863" width="737" height="1367" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-103" value="2. 序列化预处理层" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-103" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="933" y="581" width="324" height="232" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-104" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -29,7 +29,7 @@
           <mxGeometry x="974" y="360" width="241" height="123" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-108" value="Tokenizer 编码: 文本转 Token IDs" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="983" y="606" width="224" height="66" as="geometry" />
+          <mxGeometry x="983" y="625" width="224" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-109" value="张量构造: Padding / 截断 / Attention Mask" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="968" y="722" width="254" height="66" as="geometry" />
@@ -91,7 +91,9 @@
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-127" value="分配计算槽位" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;fontSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-107" target="Li-SDMcF7qhCwTF1jwC1-108">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <Array as="points">
+              <mxPoint x="1095" y="530" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-128" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-108" target="Li-SDMcF7qhCwTF1jwC1-109">
@@ -226,8 +228,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-148" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;1. 接入与调度层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-148" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1. 接入与调度层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="939" y="140" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-149" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 17px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;2. 序列化预处理层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="650" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
