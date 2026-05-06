@@ -5,10 +5,10 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-100" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-180" y="1230" width="370" height="360" as="geometry" />
+          <mxGeometry x="-440" y="1190" width="370" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-101" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-120" y="880" width="490" height="250" as="geometry" />
+          <mxGeometry x="-380" y="840" width="490" height="250" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-102" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="630" y="860" width="740" height="1150" as="geometry" />
@@ -59,19 +59,19 @@
           <mxGeometry x="675" y="1670" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-119" value="停止条件检测 &#xa; EOS / 最大长度 / 用户取消" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-50" y="960" width="350" height="130" as="geometry" />
+          <mxGeometry x="-310" y="920" width="350" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-120" value="Tokenizer 逆解码: IDs 转文本 / 拼接" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-140" y="1300" width="300" height="70" as="geometry" />
+          <mxGeometry x="-400" y="1260" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-121" value="业务后处理: JSON提取 / 安全审核" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-140" y="1420" width="300" height="70" as="geometry" />
+          <mxGeometry x="-400" y="1380" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-122" value="流式/非流式返回给客户端" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-130" y="1530" width="280" height="30" as="geometry" />
+          <mxGeometry x="-390" y="1490" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-123" value="更新序列元数据与 KV 页表指针" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="1250" width="170" height="70" as="geometry" />
+          <mxGeometry x="-50" y="1210" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-124" value="放回内部等待池" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="722" y="2290" width="130" height="130" as="geometry" />
@@ -172,7 +172,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-141" value="满足: 生成结束" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.83;entryX=0.5;entryY=0;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-120">
           <mxGeometry x="0.0011" y="4" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="10" y="1150" />
+              <mxPoint x="-250" y="1110" />
             </Array>
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -190,7 +190,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-144" value="未满足: 继续生成" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-123">
           <mxGeometry x="-0.059" y="-7" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="210" y="1190" />
+              <mxPoint x="-50" y="1150" />
             </Array>
             <mxPoint y="1" as="offset" />
           </mxGeometry>
@@ -232,10 +232,10 @@
           <mxGeometry x="640" y="870" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-151" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 21px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;4. 状态判定与分流层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=21;strokeColor=none;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-110" y="880" width="220" height="40" as="geometry" />
+          <mxGeometry x="-370" y="840" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-152" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 21px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;5. 后处理与响应层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1;strokeColor=none;strokeWidth=0;fillColor=default;gradientColor=none;fillStyle=hatch;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-180" y="1230" width="210" height="40" as="geometry" />
+          <mxGeometry x="-440" y="1190" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
