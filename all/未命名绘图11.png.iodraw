@@ -188,11 +188,8 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-145" value="" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.39;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-123" target="Li-SDMcF7qhCwTF1jwC1-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-146" value="等待下一次 Iteration 时钟触发" style="startArrow=none;endArrow=block;exitX=1;exitY=0.38;entryX=0;entryY=0.5;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;entryDx=0;entryDy=0;edgeStyle=entityRelationEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-124" target="Li-SDMcF7qhCwTF1jwC1-110">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-146" value="等待下一次 Iteration 时钟触发" style="startArrow=none;endArrow=block;exitX=1;exitY=0.38;entryX=0;entryY=0.5;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;entryDx=0;entryDy=0;edgeStyle=isometricEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-124" target="Li-SDMcF7qhCwTF1jwC1-110">
           <mxGeometry x="-0.7367" y="97" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="670" y="1060" />
-            </Array>
             <mxPoint x="-1" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
