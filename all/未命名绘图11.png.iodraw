@@ -31,7 +31,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-109" value="张量构造: Padding / 截断 / Attention Mask" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="968" y="722" width="254" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-110" value="Continuous Batching 动态组装器" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-110" value="Continuous Batching 动态组装器" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="992" y="888" width="206" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-111" value="批次拆分器: 拆分 Prefill 与 Decode 子批" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
