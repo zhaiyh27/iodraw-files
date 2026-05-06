@@ -1,29 +1,9 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1558" dy="-119" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="-1588" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-0" value="5. 后处理与响应层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="2111" width="302" height="402" as="geometry" />
-        </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-1" value="4. 状态判定与分流层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="77" y="1762" width="480" height="276" as="geometry" />
-        </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-20" value="Tokenizer 逆解码: IDs 转文本 / 拼接" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="65" y="2136" width="213" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-21" value="业务后处理: JSON提取 / 安全审核" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="55" y="2308" width="232" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-22" value="流式/非流式返回给客户端" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="67" y="2455" width="208" height="34" as="geometry" />
-        </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-21" target="Li-SDMcF7qhCwTF1jwC1-22">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-47" value="5. 后处理与响应层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="4624" width="302" height="402" as="geometry" />
         </mxCell>
