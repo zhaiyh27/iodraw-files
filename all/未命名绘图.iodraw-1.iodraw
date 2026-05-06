@@ -90,8 +90,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-27" value="分配计算槽位" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-7" target="Li-SDMcF7qhCwTF1jwC1-8">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.4714" relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-8" target="Li-SDMcF7qhCwTF1jwC1-9">
