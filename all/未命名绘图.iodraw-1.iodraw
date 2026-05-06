@@ -8,7 +8,7 @@
           <mxGeometry x="269" y="20" width="235" height="66" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-1" value="调度器：拆分为 Prefill 子批 / Decode 子批" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="172" y="280" width="263" height="119" as="geometry" />
+          <mxGeometry x="132" y="280" width="308" height="119" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-2" value="Prefill: 长序列并行计算 QKV 与注意力（FlashAttention / FlashDecoding / FlashInfer，Causal masking）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="471" width="260" height="119" as="geometry" />
