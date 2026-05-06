@@ -180,12 +180,9 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-144" value="未满足: 继续生成" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0.662;entryX=0.5;entryY=0;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-123">
-          <mxGeometry x="-0.059" y="-7" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="-50" y="1150" />
-            </Array>
-            <mxPoint y="1" as="offset" />
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-144" value="未满足: 继续生成" style="startArrow=none;endArrow=block;exitX=0.84;exitY=0.662;entryX=0.5;entryY=0;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=isometricEdgeStyle;elbow=vertical;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-123">
+          <mxGeometry x="0.2257" y="24" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-145" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.39;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-123" target="Li-SDMcF7qhCwTF1jwC1-124">
