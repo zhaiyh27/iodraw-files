@@ -35,10 +35,10 @@
           <mxGeometry x="334" y="890" width="244" height="84" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-10" value="输出头：lm_head (GEMM) → logits" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="182" y="1098" width="244" height="66" as="geometry" />
+          <mxGeometry x="181" y="1146" width="244" height="66" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-11" value="采样：Temperature + Top‑k + Top‑p + RepetitionPenalty" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="175" y="1214" width="258" height="66" as="geometry" />
+          <mxGeometry x="174" y="1240" width="258" height="66" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-12" value="选出的 token 写入序列缓冲" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="176" y="1330" width="254" height="49" as="geometry" />
