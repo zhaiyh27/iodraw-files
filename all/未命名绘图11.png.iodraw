@@ -204,12 +204,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-147" value="触发释放" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.87;exitY=1;entryX=0.5;entryY=1;rounded=0;fontSize=17;edgeStyle=entityRelationEdgeStyle;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-115">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="690" y="1970" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-147" value="触发释放" style="dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.87;exitY=1;entryX=0.5;entryY=1;rounded=0;fontSize=17;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-115">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-148" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 21px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1. 接入与调度层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="884" y="270" width="171" height="40" as="geometry" />
