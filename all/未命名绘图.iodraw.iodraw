@@ -20,7 +20,7 @@
           <mxGeometry x="760" y="20" width="309" height="390" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-6" value="客户端请求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="845" y="45" width="140" height="49" as="geometry" />
+          <mxGeometry x="845" y="70" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-7" value="API网关: 鉴权/限流/超时" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="795" y="144" width="239" height="49" as="geometry" />
