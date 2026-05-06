@@ -5,10 +5,10 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-0" value="开始：一次迭代 Forward step" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="269" y="141" width="235" height="66" as="geometry" />
+          <mxGeometry x="269" y="158" width="235" height="66" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-1" value="调度器：拆分为 Prefill 子批 / Decode 子批" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="132" y="280" width="308" height="119" as="geometry" />
+          <mxGeometry x="132" y="297" width="308" height="119" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-2" value="Prefill: 长序列并行计算 QKV 与注意力（FlashAttention / FlashDecoding / FlashInfer，Causal masking）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="20" y="471" width="260" height="119" as="geometry" />
@@ -61,7 +61,7 @@
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-0" target="gBrbMeP9gh_73OK2OJ_h-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="210" />
+              <mxPoint x="310" y="227" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -168,7 +168,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="621" y="1844" />
-              <mxPoint x="621" y="111" />
+              <mxPoint x="670" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
