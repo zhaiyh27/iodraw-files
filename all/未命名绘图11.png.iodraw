@@ -173,11 +173,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-141" value="满足: 生成结束" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.83;entryX=0.5;entryY=0;rounded=0;fontSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-120">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.2995" y="-21" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="171" y="2041" />
-              <mxPoint x="190" y="2110" />
             </Array>
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-142" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;fontSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-120" target="Li-SDMcF7qhCwTF1jwC1-121">
@@ -193,7 +193,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-144" value="未满足: 继续生成" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-123">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="463" y="2041" />
+              <mxPoint x="410" y="2080" />
             </Array>
           </mxGeometry>
         </mxCell>
