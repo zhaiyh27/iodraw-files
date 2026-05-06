@@ -50,7 +50,7 @@
           <mxGeometry x="860" y="1810" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-116" value="输出头 Logits 投影" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="690" y="1391" width="190" height="50" as="geometry" />
+          <mxGeometry x="685" y="1421" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-117" value="GPU 并行采样: Temperature / Top-k / Top-p" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="670" y="1530" width="220" height="80" as="geometry" />
