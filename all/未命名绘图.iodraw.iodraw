@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="378" dy="248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="647" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -26,7 +26,7 @@
           <mxGeometry x="795" y="155" width="239" height="49" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-8" value="优先级排序与&#xa;请求队列" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="834" y="245" width="162" height="60" as="geometry" />
+          <mxGeometry x="834" y="251" width="162" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-9" value="Tokenizer 编码:&#xa;文本转 Token IDs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="825" y="527" width="180" height="66" as="geometry" />
@@ -94,7 +94,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aecyGj_1fXJ4jN0_Au8K-50" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aecyGj_1fXJ4jN0_Au8K-27">
+        <mxCell id="aecyGj_1fXJ4jN0_Au8K-50" value="1. 接入与调度层" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aecyGj_1fXJ4jN0_Au8K-27">
           <mxGeometry x="0.0409" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
