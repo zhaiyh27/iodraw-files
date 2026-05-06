@@ -17,7 +17,7 @@
           <mxGeometry x="790" y="502" width="250" height="232" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-5" value="1. 接入与调度层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="42" width="309" height="390" as="geometry" />
+          <mxGeometry x="760" y="71" width="309" height="298" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-6" value="客户端请求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="845" y="81" width="140" height="49" as="geometry" />
