@@ -47,7 +47,7 @@
           <mxGeometry x="835" y="1259" width="257" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-115" value="Paged KV Cache 管理器: Prefill写入 / Decode读取" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="899" y="2139" width="238" height="66" as="geometry" />
+          <mxGeometry x="860" y="1810" width="238" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-116" value="输出头 Logits 投影" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="686" y="1393" width="192" height="49" as="geometry" />
