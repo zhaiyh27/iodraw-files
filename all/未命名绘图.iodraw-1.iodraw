@@ -5,7 +5,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-0" value="开始：一次迭代 Forward step" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="269" y="20" width="235" height="66" as="geometry" />
+          <mxGeometry x="269" y="166" width="235" height="66" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-1" value="调度器：拆分为 Prefill 子批 / Decode 子批" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="132" y="280" width="308" height="119" as="geometry" />
