@@ -62,7 +62,7 @@
           <mxGeometry x="268" y="1790" width="227" height="227" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-120" value="Tokenizer 逆解码: IDs 转文本 / 拼接" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="62" y="2190" width="213" height="66" as="geometry" />
+          <mxGeometry x="62" y="2190" width="298" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-121" value="业务后处理: JSON提取 / 安全审核" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="55" y="2310" width="232" height="66" as="geometry" />
