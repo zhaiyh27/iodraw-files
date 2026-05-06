@@ -29,7 +29,7 @@
           <mxGeometry x="834" y="373" width="162" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-9" value="Tokenizer 编码:&#xa;文本转 Token IDs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="825" y="527" width="180" height="66" as="geometry" />
+          <mxGeometry x="825" y="538" width="180" height="66" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-10" value="张量构造:&#xa;Padding / Mask" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="831" y="643" width="169" height="66" as="geometry" />
