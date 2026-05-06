@@ -189,13 +189,11 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-146" value="等待下一次 Iteration 时钟触发" style="startArrow=none;endArrow=block;exitX=1;exitY=0.38;entryX=0;entryY=0.5;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-124" target="Li-SDMcF7qhCwTF1jwC1-110">
-          <mxGeometry x="-0.7367" y="97" relative="1" as="geometry">
+          <mxGeometry x="-0.5577" y="-32" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="448" y="1150" />
-              <mxPoint x="710" y="1150" />
-              <mxPoint x="710" y="925" />
+              <mxPoint x="448" y="925" />
             </Array>
-            <mxPoint x="-1" y="1" as="offset" />
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-147" value="触发释放" style="startArrow=none;endArrow=block;exitX=0.788;exitY=0.731;entryX=0.5;entryY=1;rounded=0;fontSize=17;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;curved=1;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;strokeWidth=2;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-115">
