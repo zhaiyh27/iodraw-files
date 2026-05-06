@@ -50,7 +50,7 @@
           <mxGeometry x="705" y="1242" width="257" height="66" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-16" value="Paged KV Cache&#xa;显存管理器" style="shape=cylinder3;boundedLbl=1;backgroundOutline=1;size=10;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="903" y="2033" width="129" height="89" as="geometry" />
+          <mxGeometry x="800" y="1770.5" width="129" height="89" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-17" value="Logits 投影" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="638" y="1358" width="139" height="49" as="geometry" />
@@ -183,10 +183,11 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-43" value="未结束" style="curved=1;startArrow=none;endArrow=block;exitX=0.71;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aecyGj_1fXJ4jN0_Au8K-20" target="aecyGj_1fXJ4jN0_Au8K-24">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0433" y="22" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="428" y="1936" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0;entryY=0.42;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aecyGj_1fXJ4jN0_Au8K-24" target="aecyGj_1fXJ4jN0_Au8K-25">
@@ -205,7 +206,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-46" value="已结束" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="aecyGj_1fXJ4jN0_Au8K-20" target="aecyGj_1fXJ4jN0_Au8K-21">
-          <mxGeometry x="0.3573" y="5" relative="1" as="geometry">
+          <mxGeometry x="0.3571" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="165" y="1936" />
             </Array>
