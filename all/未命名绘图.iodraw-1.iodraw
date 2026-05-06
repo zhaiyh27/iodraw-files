@@ -20,10 +20,10 @@
           <mxGeometry x="886" y="20" width="311" height="488" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-5" value="客户端请求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="972" y="45" width="140" height="49" as="geometry" />
+          <mxGeometry x="972" y="214" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-6" value="API网关: 鉴权/限流/超时" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="922" y="144" width="239" height="49" as="geometry" />
+          <mxGeometry x="922" y="313" width="239" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-7" value="全局请求队列与优先级排序" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="921" y="390" width="241" height="93" as="geometry" />
