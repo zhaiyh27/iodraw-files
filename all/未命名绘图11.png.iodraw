@@ -65,10 +65,10 @@
           <mxGeometry x="62" y="2190" width="298" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-121" value="业务后处理: JSON提取 / 安全审核" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="55" y="2310" width="232" height="66" as="geometry" />
+          <mxGeometry x="55" y="2310" width="305" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-122" value="流式/非流式返回给客户端" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="67" y="2457" width="208" height="34" as="geometry" />
+          <mxGeometry x="67" y="2457" width="283" height="34" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-123" value="更新序列元数据与 KV 页表指针" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="410" y="2139" width="212" height="66" as="geometry" />
