@@ -1,38 +1,38 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="954" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1647" dy="1082" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-0" value="开始：一次迭代 Forward step" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="269" y="158" width="235" height="66" as="geometry" />
+          <mxGeometry x="269" y="256" width="235" height="66" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-1" value="调度器：拆分为 Prefill 子批 / Decode 子批" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="132" y="297" width="308" height="119" as="geometry" />
+          <mxGeometry x="132" y="395" width="308" height="119" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-2" value="Prefill: 长序列并行计算 QKV 与注意力（FlashAttention / FlashDecoding / FlashInfer，Causal masking）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="471" width="260" height="119" as="geometry" />
+          <mxGeometry x="20" y="569" width="260" height="119" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-3" value="MLP: GeGLU / SwiGLU 门控 MLP（GEMM + Bias + 激活融合）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="22" y="640" width="256" height="84" as="geometry" />
+          <mxGeometry x="22" y="738" width="256" height="84" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-4" value="残差 + LayerNorm / RMSNorm（融合或接续）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="31" y="774" width="239" height="66" as="geometry" />
+          <mxGeometry x="31" y="872" width="239" height="66" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-5" value="写入/更新 PagedKVCache（分页表更新）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="28" y="890" width="244" height="84" as="geometry" />
+          <mxGeometry x="28" y="988" width="244" height="84" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-6" value="Decode: 只看上一步生成的 token，做增量 QKV 与注意力（利用已有 KVCache，序列长度=1，单步，Causal masking）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="331" y="471" width="251" height="119" as="geometry" />
+          <mxGeometry x="331" y="569" width="251" height="119" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-7" value="MLP: GeGLU / SwiGLU 门控 MLP（GEMM + Bias + 激活融合）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="328" y="640" width="256" height="84" as="geometry" />
+          <mxGeometry x="328" y="738" width="256" height="84" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-8" value="残差 + LayerNorm / RMSNorm（融合或接续）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="337" y="774" width="239" height="66" as="geometry" />
+          <mxGeometry x="337" y="872" width="239" height="66" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-9" value="写入/更新 PagedKVCache（分页表更新）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="334" y="890" width="244" height="84" as="geometry" />
+          <mxGeometry x="334" y="988" width="244" height="84" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-10" value="输出头：lm_head (GEMM) → logits" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="1146" width="245" height="66" as="geometry" />
@@ -61,14 +61,14 @@
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-0" target="gBrbMeP9gh_73OK2OJ_h-1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="227" />
+              <mxPoint x="310" y="325" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-19" value="Prefill" style="curved=1;startArrow=none;endArrow=block;exitX=0.04;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-1" target="gBrbMeP9gh_73OK2OJ_h-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="150" y="435" />
+              <mxPoint x="150" y="533" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -90,7 +90,7 @@
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-23" value="Decode" style="curved=1;startArrow=none;endArrow=block;exitX=0.95;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-1" target="gBrbMeP9gh_73OK2OJ_h-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="456" y="435" />
+              <mxPoint x="456" y="533" />
             </Array>
           </mxGeometry>
         </mxCell>
