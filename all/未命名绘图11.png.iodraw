@@ -71,7 +71,7 @@
           <mxGeometry x="-390" y="1490" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-123" value="更新序列元数据与 KV 页表指针" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-50" y="1210" width="170" height="70" as="geometry" />
+          <mxGeometry x="120" y="1160" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-124" value="放回内部等待池" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="330" y="1030" width="130" height="130" as="geometry" />
@@ -179,7 +179,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-144" value="未满足: 继续生成" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-123">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-144" value="未满足: 继续生成" style="curved=1;startArrow=none;endArrow=block;exitX=0.879;exitY=0.671;entryX=0.5;entryY=0;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-123">
           <mxGeometry x="-0.059" y="-7" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-50" y="1150" />
