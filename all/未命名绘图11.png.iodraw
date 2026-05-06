@@ -19,7 +19,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-104" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="880" y="260" width="440" height="248" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-105" value="客户端请求" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-105" value="客户端请求" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1030" y="310" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-107" value="全局请求队列与优先级排序" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=17;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
