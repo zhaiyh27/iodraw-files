@@ -16,7 +16,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-103" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="880" y="581" width="440" height="232" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-104" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-104" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="880" y="260" width="440" height="248" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-105" value="客户端请求" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
