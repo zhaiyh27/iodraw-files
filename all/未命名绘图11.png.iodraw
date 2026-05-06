@@ -32,7 +32,7 @@
           <mxGeometry x="1005" y="720" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-110" value="Continuous Batching 动态组装器" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="990" y="890" width="210" height="70" as="geometry" />
+          <mxGeometry x="1085" y="890" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-111" value="批次拆分器: 拆分 Prefill 与 Decode 子批" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="840" y="1000" width="250" height="70" as="geometry" />
