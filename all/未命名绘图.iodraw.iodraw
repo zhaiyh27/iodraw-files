@@ -17,16 +17,16 @@
           <mxGeometry x="790" y="502" width="250" height="232" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-5" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="760" y="70" width="309" height="250" as="geometry" />
+          <mxGeometry x="760" y="166" width="309" height="250" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-6" value="客户端请求" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="845" y="81" width="140" height="49" as="geometry" />
+          <mxGeometry x="845" y="177" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-7" value="API网关: 鉴权/限流/超时" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="795" y="155" width="239" height="49" as="geometry" />
+          <mxGeometry x="795" y="251" width="239" height="49" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-8" value="优先级排序与&#xa;请求队列" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="834" y="251" width="162" height="60" as="geometry" />
+          <mxGeometry x="834" y="347" width="162" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aecyGj_1fXJ4jN0_Au8K-9" value="Tokenizer 编码:&#xa;文本转 Token IDs" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="825" y="527" width="180" height="66" as="geometry" />
