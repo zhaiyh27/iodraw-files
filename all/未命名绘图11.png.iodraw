@@ -74,7 +74,7 @@
           <mxGeometry x="636" y="579" width="221" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-124" value="放回内部等待池" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=20;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="680" y="688" width="130" height="130" as="geometry" />
+          <mxGeometry x="680" y="691" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.462;exitY=0.975;entryX=0.5;entryY=0;rounded=0;fontSize=20;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-105" target="Li-SDMcF7qhCwTF1jwC1-107">
           <mxGeometry relative="1" as="geometry">
@@ -189,8 +189,8 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-146" value="等待下一次 Iteration 时钟触发" style="startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.5;rounded=0;fontSize=20;strokeColor=#000099;strokeWidth=4;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;elbow=vertical;curved=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-124" target="Li-SDMcF7qhCwTF1jwC1-110">
-          <mxGeometry x="0.2782" y="25" relative="1" as="geometry">
-            <mxPoint as="offset" />
+          <mxGeometry x="0.0881" y="45" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-147" value="触发释放" style="startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;fontSize=20;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;strokeColor=#000099;strokeWidth=4;dashed=1;curved=1;exitX=0.322;exitY=0.833;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-115">
