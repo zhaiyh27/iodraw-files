@@ -374,7 +374,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-191" value="" style="startArrow=none;endArrow=block;exitX=0.66;exitY=0;entryX=1;entryY=0.5;rounded=0;entryDx=0;entryDy=0;fontSize=18;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-172" target="Li-SDMcF7qhCwTF1jwC1-155">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2220" y="1686" />
+              <mxPoint x="2220" y="334" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
