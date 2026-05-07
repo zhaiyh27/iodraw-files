@@ -235,10 +235,10 @@
           <mxGeometry x="1605" y="714" width="256" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-159" value="残差 + LayerNorm / RMSNorm（融合或接续）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1614" y="827" width="239" height="66" as="geometry" />
+          <mxGeometry x="1614" y="826" width="239" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-160" value="写入/更新 PagedKVCache（分页表更新）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1611" y="943" width="244" height="84" as="geometry" />
+          <mxGeometry x="1611" y="941" width="244" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-161" value="Decode: 只看上一步生成的 token，做增量 QKV 与注意力（利用已有 KVCache，序列长度=1，单步，Causal masking）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1914" y="569" width="251" height="119" as="geometry" />
@@ -247,10 +247,10 @@
           <mxGeometry x="1911" y="714" width="256" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-163" value="残差 + LayerNorm / RMSNorm（融合或接续）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1920" y="827" width="239" height="66" as="geometry" />
+          <mxGeometry x="1920" y="826" width="239" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-164" value="写入/更新 PagedKVCache（分页表更新）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1917" y="943" width="244" height="84" as="geometry" />
+          <mxGeometry x="1917" y="941" width="244" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-165" value="输出头：lm_head (GEMM) → logits" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1763" y="1146" width="245" height="66" as="geometry" />
