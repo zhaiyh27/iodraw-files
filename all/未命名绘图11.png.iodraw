@@ -195,10 +195,9 @@
             <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-147" value="触发释放" style="startArrow=none;endArrow=block;exitX=0.788;exitY=0.731;entryX=0;entryY=0.5;rounded=0;fontSize=17;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;strokeWidth=2;dashed=1;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-115">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-147" value="触发释放" style="startArrow=none;endArrow=block;entryX=0;entryY=0.5;rounded=0;fontSize=17;edgeStyle=orthogonalEdgeStyle;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=2;dashed=1;curved=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-115">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="430" y="456" />
               <mxPoint x="430" y="1638" />
             </Array>
           </mxGeometry>
