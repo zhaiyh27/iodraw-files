@@ -273,7 +273,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-170" value="更新元数据：追加 token，更新 KV 页表指针" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1944" y="1454" width="241" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-171" value="将请求放回等待池，等待下一次 Iteration 调度" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-171" value="将请求放回等待池" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1938" y="1570" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-172" value="隐式触发 / 等待下一次迭代" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
