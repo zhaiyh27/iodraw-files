@@ -74,7 +74,7 @@
           <mxGeometry x="657" y="610" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-124" value="放回内部等待池" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="320" y="1260" width="130" height="130" as="geometry" />
+          <mxGeometry x="710" y="720" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.462;exitY=0.975;entryX=0.5;entryY=0;rounded=0;fontSize=17;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-105" target="Li-SDMcF7qhCwTF1jwC1-107">
           <mxGeometry relative="1" as="geometry">
