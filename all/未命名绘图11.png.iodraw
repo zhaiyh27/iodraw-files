@@ -71,10 +71,10 @@
           <mxGeometry x="94" y="980" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-123" value="更新序列元数据与 KV 页表指针" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="579" y="574" width="221" height="70" as="geometry" />
+          <mxGeometry x="579" y="577" width="221" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-124" value="放回内部等待池" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=20;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="624" y="680" width="130" height="130" as="geometry" />
+          <mxGeometry x="624" y="688" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-126" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.462;exitY=0.975;entryX=0.5;entryY=0;rounded=0;fontSize=20;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=default;strokeWidth=2;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-105" target="Li-SDMcF7qhCwTF1jwC1-107">
           <mxGeometry relative="1" as="geometry">
