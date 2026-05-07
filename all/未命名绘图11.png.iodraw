@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1794" dy="1260" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2093" dy="1470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -61,7 +61,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-118" value="生成最新的 Token ID" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1070" y="1670" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-119" value="停止条件检测 &#xa; EOS / 最大长度 / 用户取消" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-119" value="停止条件检测 &#xa; EOS / 最大长度 / 用户取消" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="395" y="342" width="417" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-120" value="Tokenizer 逆解码: IDs 转文本 / 拼接" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
