@@ -238,7 +238,7 @@
           <mxGeometry x="1614" y="826" width="239" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-160" value="写入/更新 PagedKVCache（分页表更新）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1611" y="941" width="244" height="84" as="geometry" />
+          <mxGeometry x="1611" y="921" width="244" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-161" value="Decode: 只看上一步生成的 token，做增量 QKV 与注意力（利用已有 KVCache，序列长度=1，单步，Causal masking）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1914" y="569" width="251" height="119" as="geometry" />
@@ -250,31 +250,31 @@
           <mxGeometry x="1920" y="826" width="239" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-164" value="写入/更新 PagedKVCache（分页表更新）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1917" y="941" width="244" height="84" as="geometry" />
+          <mxGeometry x="1917" y="921" width="244" height="84" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-165" value="输出头：lm_head (GEMM) → logits" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1763" y="1146" width="245" height="66" as="geometry" />
+          <mxGeometry x="1763" y="1145" width="245" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-166" value="采样：Temperature + Top‑k + Top‑p + RepetitionPenalty" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1757" y="1240" width="258" height="66" as="geometry" />
+          <mxGeometry x="1757" y="1239" width="258" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-167" value="选出的 token 写入序列缓冲" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1759" y="1330" width="254" height="49" as="geometry" />
+          <mxGeometry x="1759" y="1329" width="254" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-168" value="生成结束？&#xa;（EOS 或 达到最大长度）" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1726" y="1410" width="320" height="90" as="geometry" />
+          <mxGeometry x="1726" y="1409" width="320" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-169" value="结束本次推理，不再调度" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1624" y="1563" width="236" height="49" as="geometry" />
+          <mxGeometry x="1624" y="1562" width="236" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-170" value="更新元数据：追加 token，更新 KV 页表指针" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1920" y="1554" width="241" height="66" as="geometry" />
+          <mxGeometry x="1920" y="1553" width="241" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-171" value="将请求放回等待池，等待下一次 Iteration 调度" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1914" y="1670" width="252" height="66" as="geometry" />
+          <mxGeometry x="1914" y="1669" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-172" value="隐式触发 / 等待下一次迭代" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="1996" y="1786" width="254" height="49" as="geometry" />
+          <mxGeometry x="1996" y="1785" width="254" height="49" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-173" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.3;exitY=1;rounded=0;fontSize=18;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-155" target="Li-SDMcF7qhCwTF1jwC1-156">
           <mxGeometry relative="1" as="geometry">
@@ -357,14 +357,14 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-187" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-168" target="Li-SDMcF7qhCwTF1jwC1-169">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="1742" y="1540" />
+              <mxPoint x="1742" y="1539" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-188" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.96;entryX=0.5;entryY=0;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-168" target="Li-SDMcF7qhCwTF1jwC1-170">
           <mxGeometry x="0.4995" y="-2" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2033" y="1510" />
+              <mxPoint x="2033" y="1509" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -377,7 +377,7 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-190" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.34;entryY=0;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-171" target="Li-SDMcF7qhCwTF1jwC1-172">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2040" y="1761" />
+              <mxPoint x="2040" y="1760" />
             </Array>
           </mxGeometry>
         </mxCell>
