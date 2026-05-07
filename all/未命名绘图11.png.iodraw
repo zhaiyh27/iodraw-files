@@ -8,7 +8,7 @@
           <mxGeometry x="44" y="680" width="370" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-101" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="300" y="250" width="490" height="209" as="geometry" />
+          <mxGeometry x="300" y="242" width="490" height="209" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-102" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="860" width="760" height="900" as="geometry" />
@@ -59,7 +59,7 @@
           <mxGeometry x="1070" y="1690" width="210" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-119" value="停止条件检测 &#xa; EOS / 最大长度 / 用户取消" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="340" y="300" width="417" height="130" as="geometry" />
+          <mxGeometry x="340" y="292" width="417" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-120" value="Tokenizer 逆解码: IDs 转文本 / 拼接" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="84" y="750" width="300" height="70" as="geometry" />
@@ -166,8 +166,8 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-141" value="满足: 生成结束" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.83;entryX=0.5;entryY=0;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-120">
-          <mxGeometry x="-0.007" y="-70" relative="1" as="geometry">
-            <mxPoint x="1" as="offset" />
+          <mxGeometry x="-0.6018" y="-33" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-142" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=17;strokeColor=default;strokeWidth=2;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-120" target="Li-SDMcF7qhCwTF1jwC1-121">
@@ -211,7 +211,7 @@
           <mxGeometry x="624" y="870" width="30" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-151" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 21px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;4. 状态判定与分流层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=21;strokeColor=none;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="347" y="250" width="220" height="40" as="geometry" />
+          <mxGeometry x="347" y="242" width="220" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-152" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 21px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;5. 后处理与响应层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=21;fontStyle=1;strokeColor=none;strokeWidth=0;fillColor=default;gradientColor=none;fillStyle=hatch;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="44" y="680" width="210" height="40" as="geometry" />
