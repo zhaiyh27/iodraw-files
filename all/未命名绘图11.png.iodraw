@@ -11,7 +11,7 @@
           <mxGeometry x="337" y="250" width="453" height="209" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-102" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="460" y="860" width="910" height="1070" as="geometry" />
+          <mxGeometry x="610" y="860" width="760" height="1070" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-103" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="920" y="580" width="440" height="230" as="geometry" />
@@ -211,7 +211,7 @@
           <mxGeometry x="930" y="590" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-150" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 21px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;3. 核心推理引擎层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=21;strokeColor=none;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="470" y="870" width="240" height="40" as="geometry" />
+          <mxGeometry x="470" y="870" width="30" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-151" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 21px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;4. 状态判定与分流层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontStyle=1;fontSize=21;strokeColor=none;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="347" y="250" width="220" height="40" as="geometry" />
