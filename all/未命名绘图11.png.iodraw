@@ -34,16 +34,16 @@
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-110" value="Continuous Batching 动态组装器" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="970" y="890" width="325" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-111" value="批次拆分器: 拆分 Prefill 与 Decode 子批" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#3A5431;fillColor=#6d8764;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-111" value="批次拆分器: 拆分 Prefill 与 Decode 子批" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="840" y="1000" width="250" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-112" value="Prefill 路径: 整段 Prompt 并行计算" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#3A5431;fillColor=#6d8764;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-112" value="Prefill 路径: 整段 Prompt 并行计算" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="670" y="1140" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-113" value="Decode 路径: 单步增量计算" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#3A5431;fillColor=#6d8764;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-113" value="Decode 路径: 单步增量计算" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="960" y="1150" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Li-SDMcF7qhCwTF1jwC1-114" value="底层算子执行: FlashAttention / Fused MLP / 融合Norm" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#3A5431;fillColor=#6d8764;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="Li-SDMcF7qhCwTF1jwC1-114" value="底层算子执行: FlashAttention / Fused MLP / 融合Norm" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#B09500;fillColor=#e3c800;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="840" y="1260" width="260" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-115" value="Paged KV Cache 管理器: Prefill写入 / Decode读取" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=#36393d;fillColor=#ffcc99;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
