@@ -167,11 +167,6 @@
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-141" value="满足: 生成结束" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.83;entryX=0.5;entryY=0;rounded=0;fontSize=20;strokeColor=default;strokeWidth=2;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Li-SDMcF7qhCwTF1jwC1-119" target="Li-SDMcF7qhCwTF1jwC1-120">
           <mxGeometry x="-0.383" y="-20" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="420" y="433" />
-              <mxPoint x="420" y="610" />
-              <mxPoint x="260" y="610" />
-            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
