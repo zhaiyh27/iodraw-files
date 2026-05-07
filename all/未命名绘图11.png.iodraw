@@ -59,7 +59,7 @@
           <mxGeometry x="1070" y="1670" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-119" value="停止条件检测 &#xa; EOS / 最大长度 / 用户取消" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=20;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="397" y="342" width="417" height="130" as="geometry" />
+          <mxGeometry x="395" y="342" width="417" height="130" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-120" value="Tokenizer 逆解码: IDs 转文本 / 拼接" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="110" y="750" width="300" height="70" as="geometry" />
