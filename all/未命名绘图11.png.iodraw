@@ -8,7 +8,7 @@
           <mxGeometry x="-419" y="1100" width="370" height="360" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-101" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="187" y="281" width="490" height="250" as="geometry" />
+          <mxGeometry x="187" y="281" width="490" height="209" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-102" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="540" y="860" width="830" height="1070" as="geometry" />
@@ -71,7 +71,7 @@
           <mxGeometry x="-369" y="1400" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-123" value="更新序列元数据与 KV 页表指针" style="whiteSpace=wrap;strokeWidth=2;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510" y="611" width="314" height="70" as="geometry" />
+          <mxGeometry x="460" y="570" width="314" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Li-SDMcF7qhCwTF1jwC1-124" value="放回内部等待池" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=17;strokeColor=default;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="710" y="720" width="130" height="130" as="geometry" />
