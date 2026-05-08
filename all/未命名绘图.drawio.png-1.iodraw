@@ -198,7 +198,7 @@
           <mxGeometry x="430" y="1910" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-86" value="采样&#xa;Temperature + Top-k + Top-p + RepetitionPenalty" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="2030" width="250" height="80" as="geometry" />
+          <mxGeometry x="409" y="2030" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-87" value="将选中的 token 写入序列缓冲" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="2160" width="170" height="70" as="geometry" />
