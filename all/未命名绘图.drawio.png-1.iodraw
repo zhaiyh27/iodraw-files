@@ -4,7 +4,7 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-37" value="Decode 处理块（每次只处理最新 token）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-37" value="Decode 处理块（每次只处理最新 token）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="420" width="500" height="1450" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-38" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
