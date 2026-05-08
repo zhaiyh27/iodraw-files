@@ -125,7 +125,7 @@
           <mxGeometry x="104" y="1120" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-70" value="更新 x，回到 LayerNorm 循环" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="40" y="1350" width="240" height="70" as="geometry" />
+          <mxGeometry x="215" y="1350" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-72" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fontSize=18;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-60" target="gBrbMeP9gh_73OK2OJ_h-62">
           <mxGeometry relative="1" as="geometry">
@@ -170,7 +170,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-80" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=0.07;exitY=1;entryX=0.64;entryY=0;rounded=0;fontSize=18;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-60" source="gBrbMeP9gh_73OK2OJ_h-69" target="gBrbMeP9gh_73OK2OJ_h-70">
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-80" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.64;entryY=0;rounded=0;fontSize=18;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-60" source="gBrbMeP9gh_73OK2OJ_h-69" target="gBrbMeP9gh_73OK2OJ_h-70">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="240" y="1300" />
