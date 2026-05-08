@@ -248,12 +248,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-99" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-88" target="gBrbMeP9gh_73OK2OJ_h-90">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="660" y="2560" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-99" value="否" style="startArrow=none;endArrow=block;exitX=0.88;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;edgeStyle=entityRelationEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-88" target="gBrbMeP9gh_73OK2OJ_h-90">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-100" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-90" target="gBrbMeP9gh_73OK2OJ_h-91">
           <mxGeometry relative="1" as="geometry">
