@@ -204,10 +204,10 @@
           <mxGeometry x="450" y="2160" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-88" value="是否结束？&#xa;（EOS 或达到最大长度）" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="408" y="2280" width="255" height="110" as="geometry" />
+          <mxGeometry x="406" y="2278" width="255" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-89" value="结束本次推理" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="2560" width="220" height="30" as="geometry" />
+          <mxGeometry x="310" y="2559" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-90" value="更新元数据：&#xa;- 追加 token 到序列&#xa;- 更新 KV 页表指针（必要时）&#xa;- 请求状态设为 Decode" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="550" y="2540" width="260" height="100" as="geometry" />
