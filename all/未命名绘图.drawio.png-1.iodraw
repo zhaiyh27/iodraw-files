@@ -10,7 +10,7 @@
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-60" value="Prefill 处理块（一次性处理整个输入序列）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;fillColor=none;container=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-5" y="420" width="500" height="1090" as="geometry" />
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-83" value="&amp;quot;开始一次迭代&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-83" value="开始一次迭代" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="100" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-84" value="调度器&#xa;根据请求状态" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
