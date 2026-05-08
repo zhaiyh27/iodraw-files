@@ -20,10 +20,10 @@
           <mxGeometry x="220" y="346.59999999999997" width="250" height="78.4" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-42" value="残差连接（加原始输入 x）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="220" y="616.4" width="250" height="49" as="geometry" />
+          <mxGeometry x="220" y="458.4" width="250" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-43" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="275" y="734" width="140" height="49" as="geometry" />
+          <mxGeometry x="275" y="576" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-44" value="MLP（GeGLU/SwiGLU）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
           <mxGeometry x="230" y="852.6" width="230" height="49" as="geometry" />
@@ -111,10 +111,10 @@
           <mxGeometry x="54" y="326.6896551724138" width="230" height="97.93103448275862" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-65" value="残差连接（加原始输入 x）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="44" y="615.9655172413793" width="250" height="48.96551724137931" as="geometry" />
+          <mxGeometry x="44" y="457.9655172413793" width="250" height="48.96551724137931" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-66" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="99" y="733.4827586206897" width="140" height="48.96551724137931" as="geometry" />
+          <mxGeometry x="99" y="575.4827586206897" width="140" height="48.96551724137931" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-67" value="MLP（GeGLU/SwiGLU）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
           <mxGeometry x="54" y="861.7931034482758" width="230" height="48.96551724137931" as="geometry" />
