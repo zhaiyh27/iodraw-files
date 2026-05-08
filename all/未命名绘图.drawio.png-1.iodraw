@@ -17,31 +17,31 @@
           <mxGeometry x="460" y="180" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-85" value="输出头 lm_head&#xa;（GEMM 得到 logits）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="1910" width="210" height="70" as="geometry" />
+          <mxGeometry x="430" y="1909" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-86" value="采样&#xa;Temperature + Top-k + Top-p + RepetitionPenalty" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="410" y="2030" width="250" height="80" as="geometry" />
+          <mxGeometry x="410" y="2029" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-87" value="将选中的 token 写入序列缓冲" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="450" y="2160" width="170" height="70" as="geometry" />
+          <mxGeometry x="450" y="2159" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-88" value="是否结束？&#xa;（EOS 或达到最大长度）" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="406" y="2278" width="255" height="110" as="geometry" />
+          <mxGeometry x="406" y="2277" width="255" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-89" value="结束本次推理" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="310" y="2538" width="220" height="42" as="geometry" />
+          <mxGeometry x="310" y="2537" width="220" height="42" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-90" value="更新元数据：&#xa;- 追加 token 到序列&#xa;- 更新 KV 页表指针（必要时）&#xa;- 请求状态设为 Decode" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="550" y="2540" width="260" height="100" as="geometry" />
+          <mxGeometry x="550" y="2539" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-91" value="将请求放回等待池" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="584" y="2679" width="190" height="50" as="geometry" />
+          <mxGeometry x="584" y="2678" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-92" value="隐式触发/等待下一次迭代" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="559" y="2770" width="240" height="50" as="geometry" />
+          <mxGeometry x="559" y="2769" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-93" value="↑ 回到 开始一次迭代" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="594" y="2860" width="170" height="50" as="geometry" />
+          <mxGeometry x="594" y="2859" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-94" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-83" target="gBrbMeP9gh_73OK2OJ_h-84">
           <mxGeometry relative="1" as="geometry">
@@ -147,7 +147,7 @@
           <mxGeometry x="99" y="1208.8275862068965" width="130" height="127.3103448275862" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-70" value="更新 x，回到 LayerNorm 循环" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;direction=east;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="210" y="1405.6482758620689" width="240" height="68.55172413793103" as="geometry" />
+          <mxGeometry x="210" y="1393.6482758620689" width="240" height="68.55172413793103" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-72" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-61" target="gBrbMeP9gh_73OK2OJ_h-62">
           <mxGeometry relative="1" as="geometry">
@@ -237,7 +237,7 @@
           <mxGeometry x="854" y="1208.6" width="130" height="127.39999999999999" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-47" value="更新 x，回到 LayerNorm 循环" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="614" y="1405.56" width="240" height="68.6" as="geometry" />
+          <mxGeometry x="614" y="1393.56" width="240" height="68.6" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-38" target="gBrbMeP9gh_73OK2OJ_h-39">
           <mxGeometry relative="1" as="geometry">
