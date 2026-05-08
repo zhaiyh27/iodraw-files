@@ -210,7 +210,7 @@
           <mxGeometry x="310" y="2600" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-90" value="更新元数据：&#xa;- 追加 token 到序列&#xa;- 更新 KV 页表指针（必要时）&#xa;- 请求状态设为 Decode" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="580" y="2540" width="160" height="100" as="geometry" />
+          <mxGeometry x="550" y="2540" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-91" value="将请求放回等待池" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="2717" width="190" height="50" as="geometry" />
