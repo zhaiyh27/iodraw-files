@@ -126,13 +126,13 @@
           <mxGeometry x="270" y="750" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-67" value="MLP（GeGLU/SwiGLU）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="230" y="880" width="230" height="50" as="geometry" />
+          <mxGeometry x="225" y="880" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-68" value="残差连接（加 LN2 前的值）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
           <mxGeometry x="210" y="1000" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-69" value="是否还有&#xa;下一层？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="280" y="1120" width="130" height="130" as="geometry" />
+          <mxGeometry x="275" y="1120" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-70" value="更新 x，回到 LayerNorm 循环" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
           <mxGeometry x="40" y="1350" width="240" height="70" as="geometry" />
