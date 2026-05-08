@@ -204,7 +204,7 @@
           <mxGeometry x="450" y="2160" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-88" value="是否结束？&#xa;（EOS 或达到最大长度）" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="420" y="2280" width="240" height="240" as="geometry" />
+          <mxGeometry x="420" y="2280" width="240" height="110" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-89" value="&amp;quot;结束本次推理&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="310" y="2600" width="220" height="30" as="geometry" />
