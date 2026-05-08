@@ -207,7 +207,7 @@
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-83" value="&amp;quot;开始一次迭代&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="432" y="100" width="219" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-84" value="调度器&#xa;根据请求状态" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-84" value="调度器&#xa;根据请求状态" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="460" y="184" width="162" height="162" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-85" value="输出头 lm_head&#xa;（GEMM 得到 logits）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
