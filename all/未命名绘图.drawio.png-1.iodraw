@@ -117,10 +117,10 @@
           <mxGeometry x="230" y="290" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-64" value="注意力计算&#xa;（因果掩码 FlashAttention）&#xa;利用刚写入的 KV Cache" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="230" y="450" width="230" height="100" as="geometry" />
+          <mxGeometry x="225" y="450" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-65" value="残差连接（加原始输入 x）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="220" y="630" width="250" height="50" as="geometry" />
+          <mxGeometry x="215" y="630" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-66" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
           <mxGeometry x="270" y="750" width="140" height="50" as="geometry" />
