@@ -110,10 +110,10 @@
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-61" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
           <mxGeometry x="190" y="50" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-62" value="并行计算所有 token 的 QKV" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-62" value="并行计算所有 token 的 QKV" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
           <mxGeometry x="210" y="170" width="260" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-63" value="将全部 K/V 写入 PagedKVCache&#xa;（分配并初始化页表）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-63" value="将全部 K/V 写入 PagedKVCache&#xa;（分配并初始化页表）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
           <mxGeometry x="230" y="290" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-64" value="注意力计算&#xa;（因果掩码 FlashAttention）&#xa;利用刚写入的 KV Cache" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
