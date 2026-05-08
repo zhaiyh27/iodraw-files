@@ -1,44 +1,44 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36 Edg/147.0.0.0" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1394" dy="2084" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="671" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-37" value="Decode 处理块（每次只处理最新 token）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="379" y="-440" width="500" height="1450" as="geometry" />
+          <mxGeometry x="570" y="420" width="500" height="1450" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-38" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="107" y="-75" width="140" height="50" as="geometry" />
+          <mxGeometry x="190" y="50" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-39" value="计算当前 token 的 QKV&#xa;（增量计算）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="162" y="84" width="220" height="70" as="geometry" />
+          <mxGeometry x="230" y="170" width="220" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-40" value="将当前 K/V 追加到 PagedKVCache&#xa;（更新页表指针）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="224" y="334" width="190" height="80" as="geometry" />
+          <mxGeometry x="250" y="310" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-41" value="注意力计算&#xa;（因果掩码，序列长度=1）&#xa;利用全部历史 KV Cache" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="100" y="503" width="250" height="80" as="geometry" />
+          <mxGeometry x="220" y="470" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-42" value="残差连接（加原始输入 x）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="123" y="603" width="250" height="50" as="geometry" />
+          <mxGeometry x="220" y="630" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-43" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="273" y="773" width="140" height="50" as="geometry" />
+          <mxGeometry x="270" y="750" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-44" value="MLP（GeGLU/SwiGLU）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="180" y="943" width="230" height="50" as="geometry" />
+          <mxGeometry x="230" y="870" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-45" value="残差连接（加 LN2 前的值）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="71" y="1112" width="260" height="50" as="geometry" />
+          <mxGeometry x="210" y="1000" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-46" value="是否还有&#xa;下一层？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="301" y="1242" width="130" height="130" as="geometry" />
+          <mxGeometry x="280" y="1120" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-47" value="更新 x，回到 LayerNorm 循环" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="34" y="1442" width="240" height="70" as="geometry" />
+          <mxGeometry x="40" y="1350" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-48" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="360" y="1632" width="60" height="30" as="geometry" />
+          <mxGeometry x="360" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fontSize=18;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-37" source="gBrbMeP9gh_73OK2OJ_h-38" target="gBrbMeP9gh_73OK2OJ_h-39">
           <mxGeometry relative="1" as="geometry">
@@ -108,37 +108,37 @@
           <mxGeometry x="20" y="420" width="500" height="1450" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-61" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="114" y="9" width="140" height="50" as="geometry" />
+          <mxGeometry x="190" y="50" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-62" value="并行计算所有 token 的 QKV" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="77" y="179" width="260" height="50" as="geometry" />
+          <mxGeometry x="210" y="170" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-63" value="将全部 K/V 写入 PagedKVCache&#xa;（分配并初始化页表）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="168" y="249" width="220" height="80" as="geometry" />
+          <mxGeometry x="230" y="290" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-64" value="注意力计算&#xa;（因果掩码 FlashAttention）&#xa;利用刚写入的 KV Cache" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="187" y="409" width="230" height="100" as="geometry" />
+          <mxGeometry x="230" y="450" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-65" value="残差连接（加原始输入 x）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="130" y="688" width="250" height="50" as="geometry" />
+          <mxGeometry x="220" y="630" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-66" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="279" y="858" width="140" height="50" as="geometry" />
+          <mxGeometry x="270" y="750" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-67" value="MLP（GeGLU/SwiGLU）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="210" y="1028" width="230" height="50" as="geometry" />
+          <mxGeometry x="230" y="880" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-68" value="残差连接（加 LN2 前的值）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="101" y="1197" width="260" height="50" as="geometry" />
+          <mxGeometry x="210" y="1000" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-69" value="是否还有&#xa;下一层？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="308" y="1327" width="130" height="130" as="geometry" />
+          <mxGeometry x="280" y="1120" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-70" value="更新 x，回到 LayerNorm 循环" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="40" y="1527" width="240" height="70" as="geometry" />
+          <mxGeometry x="40" y="1350" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-71" value="" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="390" y="1716" width="60" height="30" as="geometry" />
+          <mxGeometry x="360" y="1370" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-72" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fontSize=18;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-60" source="gBrbMeP9gh_73OK2OJ_h-61" target="gBrbMeP9gh_73OK2OJ_h-62">
           <mxGeometry relative="1" as="geometry">
@@ -205,37 +205,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-83" value="&amp;quot;开始一次迭代&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="401" y="100" width="220" height="30" as="geometry" />
+          <mxGeometry x="430" y="100" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-84" value="调度器&#xa;根据请求状态" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="478" y="120" width="160" height="160" as="geometry" />
+          <mxGeometry x="460" y="180" width="160" height="160" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-85" value="输出头 lm_head&#xa;（GEMM 得到 logits）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="430" y="2201" width="210" height="70" as="geometry" />
+          <mxGeometry x="430" y="1910" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-86" value="采样&#xa;Temperature + Top-k + Top-p + RepetitionPenalty" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="339" y="2281" width="250" height="80" as="geometry" />
+          <mxGeometry x="420" y="2030" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-87" value="将选中的 token 写入序列缓冲" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="497" y="2371" width="170" height="70" as="geometry" />
+          <mxGeometry x="460" y="2160" width="170" height="70" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-88" value="是否结束？&#xa;（EOS 或达到最大长度）" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="367" y="2371" width="240" height="240" as="geometry" />
+          <mxGeometry x="420" y="2280" width="240" height="240" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-89" value="&amp;quot;结束本次推理&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="306" y="2645" width="220" height="30" as="geometry" />
+          <mxGeometry x="310" y="2600" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-90" value="更新元数据：&#xa;- 追加 token 到序列&#xa;- 更新 KV 页表指针（必要时）&#xa;- 请求状态设为 Decode" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="620" y="2551" width="160" height="50" as="geometry" />
+          <mxGeometry x="580" y="2590" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-91" value="将请求放回等待池" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="558" y="2720" width="190" height="50" as="geometry" />
+          <mxGeometry x="570" y="2690" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-92" value="隐式触发/等待下一次迭代" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="485" y="2805" width="240" height="50" as="geometry" />
+          <mxGeometry x="540" y="2790" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-93" value="&amp;quot;↑ 回到 开始一次迭代&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="591" y="2890" width="170" height="50" as="geometry" />
+          <mxGeometry x="570" y="2890" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-94" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-83" target="gBrbMeP9gh_73OK2OJ_h-84">
           <mxGeometry relative="1" as="geometry">
