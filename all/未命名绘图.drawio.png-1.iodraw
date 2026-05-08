@@ -26,10 +26,10 @@
           <mxGeometry x="275" y="576" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-44" value="MLP（GeGLU/SwiGLU）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="230" y="852.6" width="230" height="49" as="geometry" />
+          <mxGeometry x="230" y="653.6" width="230" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-45" value="残差连接（加 LN2 前的值）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
-          <mxGeometry x="215" y="980" width="260" height="49" as="geometry" />
+          <mxGeometry x="215" y="781" width="260" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-46" value="是否还有&#xa;下一层？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-37">
           <mxGeometry x="280" y="1097.6" width="130" height="127.39999999999999" as="geometry" />
@@ -117,10 +117,10 @@
           <mxGeometry x="99" y="575.4827586206897" width="140" height="48.96551724137931" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-67" value="MLP（GeGLU/SwiGLU）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="54" y="861.7931034482758" width="230" height="48.96551724137931" as="geometry" />
+          <mxGeometry x="54" y="662.7931034482758" width="230" height="48.96551724137931" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-68" value="残差连接（加 LN2 前的值）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="39" y="979.3103448275862" width="260" height="48.96551724137931" as="geometry" />
+          <mxGeometry x="39" y="780.3103448275862" width="260" height="48.96551724137931" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-69" value="是否还有&#xa;下一层？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
           <mxGeometry x="104" y="1096.8275862068965" width="130" height="127.3103448275862" as="geometry" />
