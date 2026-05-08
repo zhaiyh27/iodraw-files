@@ -101,28 +101,28 @@
           <mxGeometry x="190" y="50" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-62" value="并行计算所有 token 的 QKV" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="209" y="170" width="260" height="50" as="geometry" />
+          <mxGeometry x="47" y="170" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-63" value="将全部 K/V 写入 PagedKVCache&#xa;（分配并初始化页表）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="229" y="290" width="220" height="80" as="geometry" />
+          <mxGeometry x="67" y="290" width="220" height="80" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-64" value="注意力计算&#xa;（因果掩码 FlashAttention）&#xa;利用刚写入的 KV Cache" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="224" y="450" width="230" height="100" as="geometry" />
+          <mxGeometry x="62" y="450" width="230" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-65" value="残差连接（加原始输入 x）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="214" y="630" width="250" height="50" as="geometry" />
+          <mxGeometry x="52" y="630" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-66" value="LayerNorm" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="269" y="750" width="140" height="50" as="geometry" />
+          <mxGeometry x="107" y="750" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-67" value="MLP（GeGLU/SwiGLU）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="224" y="880" width="230" height="50" as="geometry" />
+          <mxGeometry x="62" y="880" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-68" value="残差连接（加 LN2 前的值）" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;fillColor=none;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="209" y="1000" width="260" height="50" as="geometry" />
+          <mxGeometry x="47" y="1000" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-69" value="是否还有&#xa;下一层？" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=18;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
-          <mxGeometry x="274" y="1120" width="130" height="130" as="geometry" />
+          <mxGeometry x="112" y="1120" width="130" height="130" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-70" value="更新 x，回到 LayerNorm 循环" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;direction=east;" vertex="1" parent="gBrbMeP9gh_73OK2OJ_h-60">
           <mxGeometry x="40" y="1350" width="240" height="70" as="geometry" />
@@ -130,9 +130,9 @@
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-72" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.73;exitY=0.98;entryX=0.5;entryY=0;rounded=0;fontSize=18;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-60" target="gBrbMeP9gh_73OK2OJ_h-62">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="339" y="130" />
+              <mxPoint x="177" y="130" />
             </Array>
-            <mxPoint x="292.54166666666697" y="100" as="sourcePoint" />
+            <mxPoint x="130.54166666666697" y="100" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-73" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;fontSize=18;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-60" source="gBrbMeP9gh_73OK2OJ_h-62" target="gBrbMeP9gh_73OK2OJ_h-63">
