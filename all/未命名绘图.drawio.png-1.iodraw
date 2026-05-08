@@ -218,8 +218,8 @@
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-92" value="隐式触发/等待下一次迭代" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="559" y="2770" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-93" value="&amp;quot;↑ 回到 开始一次迭代&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="2917" width="170" height="50" as="geometry" />
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-93" value="↑ 回到 开始一次迭代" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="594" y="2860" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-94" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-83" target="gBrbMeP9gh_73OK2OJ_h-84">
           <mxGeometry relative="1" as="geometry">
