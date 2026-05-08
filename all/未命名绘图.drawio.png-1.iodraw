@@ -213,10 +213,10 @@
           <mxGeometry x="550" y="2540" width="260" height="100" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-91" value="将请求放回等待池" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="583" y="2681" width="190" height="50" as="geometry" />
+          <mxGeometry x="584" y="2679" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-92" value="隐式触发/等待下一次迭代" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="540" y="2817" width="240" height="50" as="geometry" />
+          <mxGeometry x="559" y="2770" width="240" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-93" value="&amp;quot;↑ 回到 开始一次迭代&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="570" y="2917" width="170" height="50" as="geometry" />
