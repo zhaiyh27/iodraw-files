@@ -170,12 +170,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-80" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.64;entryY=0;rounded=0;fontSize=18;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-60" source="gBrbMeP9gh_73OK2OJ_h-69" target="gBrbMeP9gh_73OK2OJ_h-70">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="1300" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-80" value="是" style="startArrow=none;endArrow=block;exitX=1;exitY=1;entryX=0.64;entryY=0;rounded=0;fontSize=18;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-60" source="gBrbMeP9gh_73OK2OJ_h-69" target="gBrbMeP9gh_73OK2OJ_h-70">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-83" value="&amp;quot;开始一次迭代&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="100" width="220" height="30" as="geometry" />
