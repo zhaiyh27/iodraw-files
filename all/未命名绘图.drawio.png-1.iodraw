@@ -176,14 +176,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-81" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.39;exitY=0;entryX=0.03;entryY=0.98;rounded=0;fontSize=18;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" edge="1" parent="gBrbMeP9gh_73OK2OJ_h-60" source="gBrbMeP9gh_73OK2OJ_h-70" target="gBrbMeP9gh_73OK2OJ_h-61">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="90" y="1300" />
-              <mxPoint x="90" y="130" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-83" value="&amp;quot;开始一次迭代&amp;quot;" style="rounded=1;whiteSpace=wrap;arcSize=50;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="100" width="220" height="30" as="geometry" />
         </mxCell>
