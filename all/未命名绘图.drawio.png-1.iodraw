@@ -5,7 +5,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-37" value="Decode 处理块（每次只处理最新 token）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;fillColor=none;container=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="574" y="419" width="500" height="1421" as="geometry" />
+          <mxGeometry x="574" y="419" width="500" height="1091" as="geometry" />
         </mxCell>
         <mxCell id="gBrbMeP9gh_73OK2OJ_h-60" value="Prefill 处理块（一次性处理整个输入序列）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=18;fillColor=none;container=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-5" y="420" width="500" height="1090" as="geometry" />
@@ -198,13 +198,8 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gBrbMeP9gh_73OK2OJ_h-107" value="" style="curved=1;startArrow=none;endArrow=block;entryX=1;entryY=1;rounded=0;fontSize=18;entryDx=0;entryDy=0;exitX=0.624;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-70" target="gBrbMeP9gh_73OK2OJ_h-61">
+        <mxCell id="gBrbMeP9gh_73OK2OJ_h-107" value="" style="startArrow=none;endArrow=block;entryX=1;entryY=1;rounded=0;fontSize=18;entryDx=0;entryDy=0;exitX=0.624;exitY=0.021;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=entityRelationEdgeStyle;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="gBrbMeP9gh_73OK2OJ_h-70" target="gBrbMeP9gh_73OK2OJ_h-61">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="380" y="1677.4344827586206" />
-              <mxPoint x="410" y="1105.5172413793102" />
-              <mxPoint x="380" y="531.6413793103449" />
-            </Array>
             <mxPoint x="359" y="1742.0689655172414" as="sourcePoint" />
             <mxPoint x="481" y="502.26206896551724" as="targetPoint" />
           </mxGeometry>
