@@ -23,10 +23,10 @@
           <mxGeometry x="-30" y="988" width="301" height="101" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-41" value="MLP (SwiGLU/GeGLU)&#xa;算子: silu_and_mul + fused_mlp_kernel&#xa;关键: 门控激活+矩阵乘融合，提升效率" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="27" y="1139" width="244" height="137" as="geometry" />
+          <mxGeometry x="-30" y="1139" width="301" height="137" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-42" value="残差连接&#xa;(加LN2前的值)&#xa;算子: 元素级加法&#xa;作用: 完成单层Transformer特征更新" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="1325" width="258" height="137" as="geometry" />
+          <mxGeometry x="-30" y="1325" width="308" height="137" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-43" value="更新特征x&#xa;回到LayerNorm循环&#xa;关键: 特征传递，多层堆叠/自回归迭代" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="109" y="1512" width="244" height="119" as="geometry" />
