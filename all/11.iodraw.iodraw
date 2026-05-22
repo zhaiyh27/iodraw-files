@@ -29,7 +29,7 @@
           <mxGeometry x="-30" y="1325" width="308" height="137" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-43" value="更新特征x&#xa;回到LayerNorm循环&#xa;关键: 特征传递，多层堆叠/自回归迭代" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-20" y="1512" width="373" height="119" as="geometry" />
+          <mxGeometry x="130" y="1512" width="280" height="119" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=18;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BZXnsFKuJ7iYlfEAfoPy-35" target="BZXnsFKuJ7iYlfEAfoPy-36">
           <mxGeometry relative="1" as="geometry">
@@ -79,6 +79,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="313" y="1487" />
+              <mxPoint x="400" y="820" />
               <mxPoint x="313" y="146" />
             </Array>
           </mxGeometry>
