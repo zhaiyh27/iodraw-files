@@ -11,10 +11,10 @@
           <mxGeometry x="-30" y="171" width="306" height="137" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-37" value="将当前K/V追加到PagedKVCache&#xa;(更新页表指针)&#xa;算子: reshape_and_cache_kernel&#xa;关键: 分页块写入，非连续存储" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="22" y="358" width="254" height="154" as="geometry" />
+          <mxGeometry x="-30" y="358" width="306" height="154" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-38" value="注意力计算&#xa;(因果掩码, 序列长度=1)&#xa;算子: paged_attention_v2_kernel&#xa;关键: PagedAttention分页寻址，复用历史KV" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="21" y="562" width="256" height="154" as="geometry" />
+          <mxGeometry x="-30" y="562" width="307" height="154" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-39" value="残差连接&#xa;(加原始输入x)&#xa;算子: fused_add_rms_norm(融合版)&#xa;作用: 缓解梯度消失，减少访存开销" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="23" y="766" width="252" height="172" as="geometry" />
