@@ -5,7 +5,7 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-0" value="单层Transformer内部层级" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="484" width="320" height="666" as="geometry" />
+          <mxGeometry x="20" y="484" width="340" height="666" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-1" value="输入：上一轮生成TokenID&#xa;+分页KV块表寻址信息" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="161" y="20" width="244" height="66" as="geometry" />
@@ -23,7 +23,7 @@
           <mxGeometry x="96" y="509" width="168" height="49" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-6" value="PagedAttention分页多头注意力&#xa;矩阵点积/缩放/加权求和" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="608" width="265" height="84" as="geometry" />
+          <mxGeometry x="40" y="608" width="280" height="84" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-7" value="注意力残差相加" style="whiteSpace=wrap;strokeWidth=2;fontSize=20;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="94" y="742" width="172" height="49" as="geometry" />
