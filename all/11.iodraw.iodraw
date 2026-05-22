@@ -17,10 +17,10 @@
           <mxGeometry x="-30" y="562" width="307" height="154" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-39" value="残差连接&#xa;(加原始输入x)&#xa;算子: fused_add_rms_norm(融合版)&#xa;作用: 缓解梯度消失，减少访存开销" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="23" y="766" width="252" height="172" as="geometry" />
+          <mxGeometry x="-30" y="766" width="305" height="172" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-40" value="LayerNorm&#xa;(FFN前置归一化)&#xa;算子: rms_norm_kernel&#xa;作用: 为MLP稳定输入分布" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="28" y="988" width="243" height="101" as="geometry" />
+          <mxGeometry x="-30" y="988" width="301" height="101" as="geometry" />
         </mxCell>
         <mxCell id="BZXnsFKuJ7iYlfEAfoPy-41" value="MLP (SwiGLU/GeGLU)&#xa;算子: silu_and_mul + fused_mlp_kernel&#xa;关键: 门控激活+矩阵乘融合，提升效率" style="whiteSpace=wrap;strokeWidth=2;fontSize=18;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="27" y="1139" width="244" height="137" as="geometry" />
