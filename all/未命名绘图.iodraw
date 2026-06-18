@@ -94,16 +94,16 @@
             <Array as="points">
               <mxPoint x="580" y="2560" />
             </Array>
-            <mxPoint x="592" y="2660" as="targetPoint" />
+            <mxPoint x="600" y="2570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="g_3_wBWqsGdHWQU5lfTo-20" value="内嵌混合精度、梯度累积、分布式加速" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;exitX=Infinity;exitY=-Infinity;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-0.4733" y="-8" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="600" y="2854" />
+              <mxPoint x="590" y="2724" />
             </Array>
-            <mxPoint x="600.0000000000002" y="2680" as="sourcePoint" />
-            <mxPoint x="652" y="2840" as="targetPoint" />
+            <mxPoint x="590.0000000000002" y="2550" as="sourcePoint" />
+            <mxPoint x="642" y="2710" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
