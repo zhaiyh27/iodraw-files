@@ -89,21 +89,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="g_3_wBWqsGdHWQU5lfTo-19" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;exitX=0.75;exitY=1;entryX=Infinity;entryY=-Infinity;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g_3_wBWqsGdHWQU5lfTo-4" target="g_3_wBWqsGdHWQU5lfTo-8">
+        <mxCell id="g_3_wBWqsGdHWQU5lfTo-19" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;exitX=0.75;exitY=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="g_3_wBWqsGdHWQU5lfTo-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="580" y="2560" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="g_3_wBWqsGdHWQU5lfTo-20" value="内嵌混合精度、梯度累积、分布式加速" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;exitX=Infinity;exitY=-Infinity;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-0.4733" y="-8" relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="648" y="2884" />
-            </Array>
-            <mxPoint x="648.0000000000002" y="2710" as="sourcePoint" />
-            <mxPoint x="700" y="2870" as="targetPoint" />
-            <mxPoint as="offset" />
+            <mxPoint x="592" y="2660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="g_3_wBWqsGdHWQU5lfTo-21" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;entryX=1;entryY=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="g_3_wBWqsGdHWQU5lfTo-4">
