@@ -96,7 +96,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g_3_wBWqsGdHWQU5lfTo-20" value="内嵌混合精度、梯度累积、分布式加速" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=none;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-0.4733" y="-8" relative="1" as="geometry">
+          <mxGeometry x="-0.6235" y="-10" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="590" y="2724" />
             </Array>
