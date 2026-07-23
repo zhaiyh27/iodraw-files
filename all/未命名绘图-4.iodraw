@@ -97,7 +97,7 @@
         <mxCell id="FrToZEi2a00xXOmEAxrD-22" value="生成指令: sub sp, sp, StackSize&#xa;(申请栈空间)" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="141" y="2751" width="211" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="FrToZEi2a00xXOmEAxrD-23" value="是否需要重定向?&#xa;MaxAlign &amp;gt; 默认对齐?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FrToZEi2a00xXOmEAxrD-23" value="是否需要重定向?&#xa;MaxAlign or 默认对齐?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="127" y="2885" width="241" height="241" as="geometry" />
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-24" value="生成指令: and sp, sp, -32&#xa;(强制SP对齐到32B边界)" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
