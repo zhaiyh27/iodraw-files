@@ -1,53 +1,9 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0" version="24.7.17">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="24547" dy="11900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3199" dy="-1148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-4" value="左边" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="20" y="461" width="2340" height="898" as="geometry" />
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-5" value="原始文本 Raw Text" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="45" y="906" width="194" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-6" value="Tokenizer编码 Tokenizer" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="289" y="906" width="234" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-7" value="Token序列 Token IDs" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="573" y="906" width="205" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-8" value="Padding/截断/掩码 Padding/Truncation/Mask" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="828" y="897" width="243" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-9" value="Padded Token IDs + Attention Mask" style="whiteSpace=wrap;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1121" y="897" width="197" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-64" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GfdFgdKBeM0W8TyXVUpf-5" target="GfdFgdKBeM0W8TyXVUpf-6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-65" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.49;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GfdFgdKBeM0W8TyXVUpf-6" target="GfdFgdKBeM0W8TyXVUpf-7" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-66" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.49;entryX=0;entryY=0.5;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GfdFgdKBeM0W8TyXVUpf-7" target="GfdFgdKBeM0W8TyXVUpf-8" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-67" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GfdFgdKBeM0W8TyXVUpf-8" target="GfdFgdKBeM0W8TyXVUpf-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="GfdFgdKBeM0W8TyXVUpf-68" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.49;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="GfdFgdKBeM0W8TyXVUpf-9" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1368" y="930.010000000002" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-0" value="阶段四：指令生成 - 出口 emitEpilogue" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-61" y="3952" width="610" height="947" as="geometry" />
         </mxCell>
