@@ -584,7 +584,7 @@
           <mxGeometry x="108" y="4732" width="431" height="124" as="geometry" />
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-2" value="阶段二：指令生成 - 入口 emitPrologue" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="21" y="2370" width="609" height="2312" as="geometry" />
+          <mxGeometry x="21" y="2930" width="609" height="1752" as="geometry" />
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-3" value="阶段一：编译期规划 processFunctionBeforeFrameFinalized" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="665" y="2395" width="574" height="1127" as="geometry" />
