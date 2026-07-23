@@ -13,7 +13,7 @@
         <mxCell id="FrToZEi2a00xXOmEAxrD-2" value="阶段二：指令生成 - 入口 emitPrologue" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-60" y="2406" width="609" height="1319" as="geometry" />
         </mxCell>
-        <mxCell id="FrToZEi2a00xXOmEAxrD-3" value="阶段一：编译期规划 processFunctionBeforeFrameFinalized" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FrToZEi2a00xXOmEAxrD-3" value="阶段一：编译期规划 &#xa;processFunctionBeforeFrameFinalized" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="665" y="2395" width="574" height="1127" as="geometry" />
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-4" value="开始" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=19;" vertex="1" parent="FrToZEi2a00xXOmEAxrD-3">
