@@ -4,7 +4,7 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="FrToZEi2a00xXOmEAxrD-0" value="阶段四：指令生成 - 出口 emitEpilogue" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FrToZEi2a00xXOmEAxrD-0" value="阶段四：指令生成 - 出口 emitEpilogue" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-61" y="3952" width="610" height="947" as="geometry" />
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-1" value="阶段三：运行时执行" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
