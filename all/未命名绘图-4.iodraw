@@ -92,10 +92,10 @@
           <mxGeometry x="185" y="2439" width="125" height="125" as="geometry" />
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-21" value="计算实际分配大小:&#xa;StackSize = alignTo(Size, MaxAlign)" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="129" y="2618" width="236" height="84" as="geometry" />
+          <mxGeometry x="129" y="2619" width="236" height="84" as="geometry" />
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-22" value="生成指令: sub sp, sp, StackSize&#xa;(申请栈空间)" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="141" y="2751" width="211" height="84" as="geometry" />
+          <mxGeometry x="141" y="2853" width="211" height="84" as="geometry" />
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-23" value="是否需要重定向?&#xa;MaxAlign or 默认对齐?" style="rhombus;strokeWidth=2;whiteSpace=wrap;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="127" y="2990" width="241" height="136" as="geometry" />
