@@ -89,7 +89,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-20" value="输入: StackSize&#xa;MaxAlign" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="185" y="2440" width="125" height="125" as="geometry" />
+          <mxGeometry x="191" y="2550" width="117" height="117" as="geometry" />
         </mxCell>
         <mxCell id="FrToZEi2a00xXOmEAxrD-21" value="计算实际分配大小:&#xa;StackSize = alignTo(Size, MaxAlign)" style="whiteSpace=wrap;strokeWidth=2;fontSize=19;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="129" y="2713" width="236" height="84" as="geometry" />
